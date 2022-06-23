@@ -206,3 +206,6 @@ def main():
     messagebox.showinfo(title = None, message = 'Cartões salvos em {}'.format(arquivo_pdf))
     janela.destroy()
     return
+
+if __name__ == "__main__":
+    main()
